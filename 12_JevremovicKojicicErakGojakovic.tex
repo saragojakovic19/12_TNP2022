@@ -5,7 +5,8 @@
 \usepackage{color}
 \usepackage{url}
 \usepackage[utf8]{inputenc} 
-
+\usepackage{graphicx}
+\usepackage{geometry}
 
 \usepackage[english,serbian]{babel}
 
@@ -20,15 +21,14 @@
 \small{Seminarski rad u okviru kursa\\Tehničko i naučno pisanje\\ Matematički fakultet}}
 
 \author{Lea Kojičić, \\ mr21079@matf.bg.ac.rs \and
-        Isidora Jevremović \\ mi22@matf.bg.ac.rs \and
-        Filip Erak \\  mi22@gmail.com \and
+        Isidora Jevremović \\ mi22109@matf.bg.ac.rs \and
+        Filip Erak \\  mi22198@gmail.com \and
         Sara Gojaković \\ mi22244@matf.bg.ac.rs}
 \date{\today}
 \maketitle
 \abstract{ Upoznati smo sa time da danas roboti zamenjuju ljude u mnogim poslovima, obavljaju razne zadatke koji zahtevaju razmišljanje i učenje, rešavaju probleme, pa čak i donose odluke. Veruje se da će veštačka inteligencija postati dominantan oblik inteligencije na zemlji i zameniti većinu ljudskih poslova, samim tim učiniti ljude suvišnim. Da li je taj scenario realan ili ipak postoje neke oblasti u kojima su ljudi nezamenljivi?}
 
 \tableofcontents
-
 \newpage
 
 \section{Uvod}
@@ -38,7 +38,7 @@ Mogućnost stvaranja inteligentnih mašina zaokuplja ljudsku maštu još od davn
 Da li ste se nekada zapitali kako je počeo razvoj računara koje mi svakodnevno koristimo? Alan Tjuring je jedan od blistavih umova kome treba da zahvalimo.  Njegov rad je bio uvod u moderan računarski svet i prva vizija pojma veštačke inteligencije (eng. artifical intelligence AI). U Drugom svetskom ratu se njegova zasluga ogleda u dešifrovanju Enigme, mašine koju je nemačka armija tada koristila radi sigurnog slanja šifrovanih poruka. Alan Tjuring je bio fasciniran inteligencijom i razmišljanjem te je i osmislio test 1950. godine poznat pod nazivom "Tjuringov test", koji je uvod u razvoj veštačke inteligencije. Njegovo pitanje je bilo da li mašina može da razmišlja pametno kao i čovek. Danas posle toliko godina uz napredak veštačke inteligencije idalje se postavlja isto pitanje. Ljudi prepoznaju današnje računare kao inteligentne jer imaju potencijal da uče i odlučuju na osnovu informacija koje su im date. Međutim pored svih prednosti koje veštačka inteligencija pruža, postoje stvari u kojima ona ne može da zameni čoveka.\\ 
 Postoji razlika između „jake“ veštačke inteligencije(eng. strong AI) — kompjuterske funkcije koje zaista imaju snažne sličnosti sa inteligentnim ljudskim rasuđivanjem i pokazuju neku vrstu  svesti  i „slaba“ veštačka inteligencija (eng. weak A.)— računarske aplikacije koje se bave ograničenim oblastima primene i sadrže neka praktična znanja. 
 
-\newpage
+
 \section{Prirodna inteligencija}
 \label{poglavlje:prirodnaInt}
 Još otkad je Alan Tjuring morao da postavi nedvosmisleno pitanje: ,,Da li mašine mogu uspešno da reše Problem imitacije ?" (\emph{eng} Imitation game); umesto prvobitnog - Da li mašine mogu da misle ? \cite{turing2009computing}; Veštačka inteligencija trpi zbog nepreciznog i oprečnog definisanja pojma inteligencije u okviru naučnih i javnih krugova. Različita poimanja ključnog termina, dovode do zabune i izvor su čestih nesuglasica i bojazni, kojima se ovaj rad bavi. Da bismo uspešno odgovorili na pitanje: \textit{Da li veštačka inteligencija može zameniti prirodnu ?}; potrebno je prvo definisati prirodnu inteligenciju.
@@ -118,7 +118,6 @@ AI još uvek nije u stanju da razgovara sa dovoljno fleksibilnosti da bi održao
 Možda će ljudski pacijenti želeti ljudske lekare, sa svim njihovim čudnostima i komparativnom nesposobnošću, jednostavno zato što su ljudi. Cinično, ako su silicijumski psihijatri jeftiniji i merljivo efikasni kao ljudski psihijatri, mogli bi naći masovno zaposlenje samo na osnovu ekonomskih zahteva. Još pozitivnije, AI obećava značajne prednosti za pacijente. Umesto da složene pojedince svrstava u dijagnostičke kategorije i da dodeljuje tretmane zasnovane na generičkim smernicama, AI nudi zaista individualizovanu negu. Štaviše, za razliku od veoma fragmentiranih puteva nege kojima su pacijenti trenutno izloženi, lični AI kliničar bi bio dostupan manje-više bilo gde (od primarne nege do odeljenja za pacijente), u bilo koje vreme. Vremenom bi se tada moglo zaraditi i održati poverenje pacijenata. Stoga, ljudi mogu smatrati da je briga vođena veštačkom inteligencijom humanija od statusa današnje psihijatrije; u svojoj želji da budu shvaćeni i tretirani na osnovu najboljeg naučnog razumevanja, oni će voljno izabrati AI umesto njegove alternative od krvi i mesa.
 
 
-\newpage
 
 \section{Zašto veštačka inteligencije \textit{ne može} da zameni čoveka}	
 \label{poglavlje:ton}
@@ -137,7 +136,7 @@ Koliko god jedan ,,inteligentan" model bio brz, inovativan i precizan u svojim p
 Možda, ali samo na kratko, nas sve veća upotreba transformatora (\emph{eng} Transformers) može navesti da pomislimo da je u tom slučaju Sternova \ref{ljudskaInt:definicije} definicija zadovoljena; međutim, resursi koje transformatori koriste - osim što u potpunosti zavise od čoveka (Nauka o istraživanju podataka, \emph{eng} Data Science) - troše i daleko više energije, za obavljanje najobičnijih zadataka\cite{frontiers} (poput prepoznavanja lica).\\
 
 Teoriju višestruke inteligencije je u kontekstu mašina suvišno i komentarisati, obzirom da su motoričke, perceptivne, intra i introspektivne sposobnosti još uvek van dosega i najpametnijeg modela veštačke inteligencije.
-\newpage
+
 
 \section{Zaključak}
 \label{sec:zakljucak}
